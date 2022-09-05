@@ -25,6 +25,7 @@
 
 @media only screen and(max-width: $tablet){
     .footer{
+        width: 100%;
         @extend %between;
         @include banner($darkGrey, 0, 52px 0 56px 0);
         margin-bottom: 72px;
